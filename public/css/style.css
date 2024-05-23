@@ -1,0 +1,161 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.main_header {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #bfde81, #25dffc);
+ 
+  color: #000;
+}
+
+.main {
+  background: rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.temp_form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.temp_form input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 70%;
+}
+
+.temp_form input[type="submit"] {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2575fc;
+  color: white;
+  cursor: pointer;
+}
+
+.temp_form input[type="submit"]:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.temp {
+  text-align: center;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.main_layer {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.middle_layer {
+  margin-top: 20px;
+}
+
+.data_hide {
+  display: none;
+}
+
+#city_name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#temp {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+#temp_status {
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+.additional_info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.additional_info p {
+  flex: 1 1 45%;
+  background: rgba(255, 255, 255, 0.1);
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 5px;
+  background: #bfde81;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  bottom: 0;
+}
+
+div ul{
+  margin-left: auto;
+}
+
+div ul li:hover{
+  color: #2575fc;
+}
+
+.navbar li{
+  margin-left: 20px;
+  color: #000;
+}
+
+.navbar a:hover{
+  color: #bfde81;
+}
+
+.fa-snowflake{
+  transition: all linear;
+  animation: rot 2s linear infinite;
+  color: #bfde81;
+}
+
+@keyframes rot {
+   from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+  
+}
+
+
+
+
+
+
+
